@@ -1,0 +1,68 @@
+/*html, body{
+  margin: 0 auto;
+  padding: 0;
+}*/
+
+.main{
+  /*background: red;*/
+  /*height: 600px;*/
+}
+
+.main2{
+  /*background: blue;*/
+  /*height: 600px;*/
+}
+
+.rules li{
+  margin-bottom: 5px;
+  width: 250px;
+  word-wrap: break-word;
+  /*list-style: none;*/
+  text-align: left;
+}
+
+.main input{
+  /*width: 150%;*/
+  margin-bottom: 15px;
+}
+
+.main select{
+  /*width: 150%;*/
+  margin-bottom: 15px;
+}
+
+.main label{
+  margin-bottom: 15px;
+}
+
+.textarea{
+  resize: none;
+  overflow-y: scroll;
+  word-wrap: break-word;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    display: inline-block;
+}
+.elaveEtNew{
+  background:#008F95 !important;
+  color:white !important;
+}
+.elaveEtNew:hover{
+  background:#062F4F !important;
+  transition: 0.3s linear;
+  color:white !important;
+}
+

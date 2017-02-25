@@ -1,0 +1,88 @@
+html,body{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+.border{
+    width: 165px;
+    height: 3px;
+    background: #E8E8E8;
+    display: block;
+    margin-top: -9px;
+}
+.ButunElanlar {
+    font-size: 20px;
+    color: grey;
+    font-family: serif;
+    margin-top: 26px;
+
+}
+.UnvaniHaqqindaMelumat{
+	font-size: 17px;
+    color: grey;
+    font-family: serif;
+    margin: 3px 20px;
+   
+}
+.Sahesi{
+	font-size: 17px;
+    color: grey;
+    font-family: serif;
+    margin: 3px 20px;
+    float: left;
+}
+.OtaqSayi{
+	font-size: 17px;
+    color: grey;
+    font-family: serif;
+    margin: 3px 20px;
+}
+
+.Unvan{
+	color: darkslategrey;
+	font-size: 25px;
+	float: left;
+}
+
+.elan{
+
+}
+.sagsol{
+	color: darkslategrey;
+	font-size: 25px;
+}
+
+.ElanSekil{
+	width: 100%;
+	height: auto;
+	// filter: grayscale(100%);
+}
+
+.UmumiElan{
+	padding:4px;
+	margin:0px;
+
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+
+.Sahibkar{
+	color: lightgrey;
+	font-size: 25px;
+	float: left;
+}
+
+.AdSoyad{
+	font-size: 17px;
+    color: grey;
+    font-family: serif;
+    margin: 5px 31px;
+   
+}
+.Tarix{
+	font-size: 17px;
+    color: grey;
+    font-family: serif;
+    margin: 5px 31px;
+}

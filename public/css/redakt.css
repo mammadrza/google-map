@@ -1,0 +1,42 @@
+
+
+.header{
+	width: 100%;
+	height: 700px;
+	background: green;
+
+}
+
+.form-group {
+    margin-bottom: -7px;
+}
+.redakteUmumiDivi{
+	margin-top: 20px;
+	height: 500px;
+	/*background: red*/
+}
+/*.elaveEt{
+margin-top:20px;
+height:35px;
+padding: 5px;
+background: #4774FF;
+}
+.elaveEt:hover{
+background: #4774FF;
+
+}*/
+
+.elaveEt{
+	/*width: 100%;*/
+	height: 35px;
+	background:#4774FF;
+
+	margin-top: 15px;
+	padding: 1px;
+	font-size: 15px;
+	color: @color_white;
+}
+.elaveEt:hover{
+	color: @color_white;
+	background: blue;
+}

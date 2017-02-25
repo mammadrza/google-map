@@ -1,0 +1,73 @@
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+
+.contact-list{
+	margin-bottom:50px;
+}
+.empy13{
+	margin-top: 20px;
+	
+}
+.empty11{
+	width: 100%;
+	height: 200px;
+}
+.empty21{
+	width: 100%;
+	height: 110px;
+	/*background: red*/
+}
+
+
+
+.bor{
+	border-radius: 50px;
+	opacity: 0.5
+}
+.bor:hover{
+
+	opacity: 1
+}
+
+
+.gmaill{
+	color: #CE3633;
+	text-decoration: none
+}
+.gmaill:hover{
+	color:#CE3633;
+	text-decoration: none;
+}
+
+
+.tw{
+color:#25A8E0;
+text-decoration: none;
+}
+
+.tw:hover{
+color:#25A8E0;
+text-decoration: none;
+}
+
+.fb{
+	color:#3B5A9A;
+	text-decoration: none;
+}
+.fb:hover{
+	color:#3B5A9A;
+	text-decoration: none;
+}
+
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: none;
+    cursor: auto;
+}

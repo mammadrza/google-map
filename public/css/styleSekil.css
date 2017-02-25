@@ -1,0 +1,29 @@
+.content{
+	background-color: #F3F3F3;
+}
+.input{
+	width: 100%;
+}
+select, textarea{
+	width: 352px;
+	padding: 5px;
+}
+.input{
+	display: inline-block;
+}
+.input label{
+	float: left;
+}
+.input select{
+	float: right;
+}
+.input input, .input textarea{
+	float: right;
+}
+.img{
+    cursor: pointer;
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+}

@@ -1,0 +1,10 @@
+#mainSection .mainImg {
+  height: 600px;
+  background-image: url(../images/slider5.jpg);
+  background-attachment: fixed;
+}
+#mainSection .mainImg h2 {
+  font-size: 36px;
+  color: gray;
+  text-align: center;
+}

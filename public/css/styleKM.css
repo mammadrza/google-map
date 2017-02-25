@@ -1,0 +1,145 @@
+/*html body{
+  margin: 0 auto;
+  padding: 0;
+
+}*/
+
+#mainImg{
+  height: 830px;
+  background: url(../../uploads/friend.jpg);
+  background-size: cover !important;
+  background-attachment: fixed;
+}
+
+.padding{
+  position: relative;
+  z-index: 999;
+  padding-top: 250px;
+}
+
+.search h2{
+  text-align: center;
+  font-size: 36px;
+  color: white;
+}
+
+.search-type{
+  display: inline-block;
+  padding: 10px 35px 50px 35px;
+}
+
+.search-type input{
+  display: none;
+}
+
+.search-type label{
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    padding: 15px 25px;
+    margin: 0 15px 0 0;
+    float: left;
+    transition: all 0.2s;
+    border-radius: 3px;
+}
+
+.search-type-arrow {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate3d(3px,0,0);
+}
+
+.search-type-box {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.12);
+    padding: 30px;
+    padding-bottom: 20px;
+    margin-top: -9px;
+    border-radius: 3px;
+}
+
+.menu1{
+    width: 100%;
+    position: relative;
+    margin-bottom: 18px;
+    display: flex;
+}
+
+#inputsm{
+  margin-right: 20px;
+}
+
+
+.ox{
+  left: 60px;
+  margin-bottom: 192px;
+  transition: left 0.4s cubic-bezier(0.87, -0.41, 0.19, 1.44);
+}
+
+.activeOx{
+  margin-bottom: 398px;
+}
+
+.more-search-options-trigger {
+    font-size: 15px;
+    margin: 15px 0 2px 0;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.more-search-options {
+    opacity: 0;
+    visibility: hidden;
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    margin-top: 30px;
+    transition: all 0.1s;
+    z-index: 19;
+    transform: translate3d(0,-20px,0);
+}
+
+.more-search-options-container {
+    /*background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.12);
+    position: relative;
+    /*padding: 30px 30px 25px 30px;
+    padding-top: 0;
+    border-radius: 0 0 3px 3px;*/
+    background-color: #fff;
+    /*box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.12);*/
+    position: relative;
+    /*padding: 30px 30px 25px 30px;*/
+    padding-top: 0;
+    border-radius: 0 0 3px 3px;
+}
+
+.checkboxes label{
+    margin-top: 9px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 41px;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.active{
+
+      opacity:1;
+      visibility: visible;
+      display: inline;
+      position: static;
+      transition: all 0.5s ease;
+
+}

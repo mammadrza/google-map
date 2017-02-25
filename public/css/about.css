@@ -1,0 +1,74 @@
+.allBlocks{
+  box-sizing: border-box;
+  /*background-color: gray;*/
+  /*margin-top: 100px;*/
+}
+
+.allBlocks img{
+  width: 100%;
+  height: 250px;
+  /*box-sizing: border-box;*/
+}
+
+.banner{
+  height: 65px;
+  /*width: 100%;
+  margin-bottom: 20px;*/
+}
+
+.info{
+  text-align: center;
+}
+
+.info h4{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.aboutBlock{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border: 1px solid transparent;
+}
+
+
+
+.aboutBlock:hover{
+  background-color: #F2F2F2;
+}
+
+.text{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.line{
+  border-bottom: 1px solid #F2F2F2; margin-bottom: 10px;
+}
+
+.siteInfo h4, p{
+  display: inline;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 9999999;
+}
+#status {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  /*background-image: url("../images/preloader 2.gif");*/
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px;
+}
